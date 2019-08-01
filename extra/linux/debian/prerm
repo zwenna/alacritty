@@ -1,3 +1,4 @@
 #!/bin/sh -e
 
 update-alternatives --remove x-terminal-emulator /usr/bin/alacritty
+rm -f /lib/terminfo/a/alacritty /lib/terminfo/a/alacritty+common /lib/terminfo/a/alacritty-direct
